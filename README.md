@@ -24,7 +24,6 @@ git clone https://github.com/Pfleiderer-Adrian/PixelArt_x_Spotify
 cd PixelArt_x_Spotify
 python3 -m venv env
 source env/bin/activate
-cd /usr/bin/PixelArt_x_Spotify
 pip install -r requirements.txt
 ```
 

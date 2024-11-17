@@ -22,7 +22,6 @@ Show the actual Album Cover of your Spotify Connect Client on your Pixoo64 Pixel
 cd /usr/bin
 git clone https://github.com/Pfleiderer-Adrian/PixelArt_x_Spotify
 cd PixelArt_x_Spotify
-cd PixelArt_x_Spotify
 python3 -m venv env
 source env/bin/activate
 cd /usr/bin/PixelArt_x_Spotify

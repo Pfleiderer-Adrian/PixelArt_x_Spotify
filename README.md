@@ -7,7 +7,7 @@ Show the actual Album Cover of your Spotify Connect Client on your Pixoo64 Pixel
 
 
 
-## What do you need
+## Requirements
 
 - A working [Raspotify](https://github.com/dtcooper/raspotify) client device with ubuntu
 - A [Pixoo64](https://divoom.com/products/pixoo-64) Pixel Display

@@ -24,7 +24,7 @@ git clone https://github.com/Pfleiderer-Adrian/PixelArt_x_Spotify
 cd PixelArt_x_Spotify
 ```
 
-3. Edit the config.py file in the repo Folder.
+3. Edit the config.py file in the repo folder.
 ```python
 config = {
     "SPOTIPY_CLIENT_ID": 'your_spotify_client_id',
@@ -38,13 +38,13 @@ The PIXOO_IP is your static IP for your pixoo64 device in your network. Maybe yo
 
 4. Add the following at the end of your respotfy-config in /etc/raspotify/conf:
 ```python
-LIBRESPOT_ONEVENT="/usr/bin/Pixoo_Album_Art/launcher.sh"
+LIBRESPOT_ONEVENT="/usr/bin/PixelArt_x_Spotify/launcher.sh"
 ```
 
 5. Make launcher.sh and main.py executabel
 ```python
-sudo chmod +x /usr/bin/Pixoo_Album_Art/launcher.sh
-sudo chmod +x /usr/bin/Pixoo_Album_Art/main.py
+sudo chmod +x /usr/bin/PixelArt_x_Spotify/launcher.sh
+sudo chmod +x /usr/bin/PixelArt_x_Spotify/main.py
 ```
 
 6. Restart Raspotify

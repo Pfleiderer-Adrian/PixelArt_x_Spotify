@@ -17,11 +17,16 @@ Show the actual Album Cover of your Spotify Connect Client on your Pixoo64 Pixel
 
 1. Install [Raspotify](https://github.com/dtcooper/raspotify) on your Client (e.g. RPi3).
 
-2. Clone the Project into the Raspotify client device under /usr/bin/{Repository-Folder}.
+2. Clone and install the project into the Raspotify client device under /usr/bin/{Repository-Folder}.
 ```bash
 cd /usr/bin
 git clone https://github.com/Pfleiderer-Adrian/PixelArt_x_Spotify
 cd PixelArt_x_Spotify
+cd PixelArt_x_Spotify
+python3 -m venv env
+source env/bin/activate
+cd /usr/bin/PixelArt_x_Spotify
+pip install -r requirements.txt
 ```
 
 3. Edit the config.py file in the repo folder.

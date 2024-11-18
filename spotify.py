@@ -5,8 +5,8 @@ import config
 
 # returns an image url of the album cover
 def get_album_url(track_id):
-    auth_manager = SpotifyClientCredentials(config.spotify_config["SPOTIPY_CLIENT_ID"],
-                                            config.spotify_config["SPOTIPY_CLIENT_SECRET"])
+    auth_manager = SpotifyClientCredentials(config.config["SPOTIPY_CLIENT_ID"],
+                                            config.config["SPOTIPY_CLIENT_SECRET"])
     sp = spotipy.Spotify(auth_manager=auth_manager)
 
     # Get current playing

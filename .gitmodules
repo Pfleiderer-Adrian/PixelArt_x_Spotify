@@ -1,4 +1,0 @@
-[submodule "pixoo"]
-	path = pixoo
-	url = ../../SomethingWithComputers/pixoo.git
-	branch = main

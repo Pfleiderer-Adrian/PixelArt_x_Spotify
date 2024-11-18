@@ -20,11 +20,11 @@ Show the actual Album Cover of your Spotify Connect Client on your Pixoo64 Pixel
 2. Clone and install the project into the Raspotify client device under /usr/bin/{Repository-Folder}.
 ```bash
 cd /usr/bin
-git clone https://github.com/Pfleiderer-Adrian/PixelArt_x_Spotify --recurse-submodules
+sudo git clone https://github.com/Pfleiderer-Adrian/PixelArt_x_Spotify --recurse-submodules
 cd PixelArt_x_Spotify
-python3 -m venv env
+sudo python3 -m venv env
 source env/bin/activate
-pip install -r requirements.txt
+sudo pip install -r requirements.txt
 ```
 
 3. Edit the config.py file in the repo folder.

@@ -1,7 +1,7 @@
 
 # PixelArt x Spotify
 
-Show the actual Album Cover of your Spotify Connect Client on your Pixoo64 Pixel Display.
+Show the actual Album Cover of your Spotify Connect receiver on your Pixoo64 Pixel Display.
 
 <img src="demo.png" alt="HTML ERROR" width="530" height="258">
 
@@ -9,15 +9,15 @@ Show the actual Album Cover of your Spotify Connect Client on your Pixoo64 Pixel
 
 ## Requirements
 
-- A working [Raspotify](https://github.com/dtcooper/raspotify) client device with ubuntu
+- A working [Raspotify](https://github.com/dtcooper/raspotify) receiver device with ubuntu
 - A [Pixoo64](https://divoom.com/products/pixoo-64) Pixel Display
 - A [Spotify Development Account](https://developer.spotify.com/) (free)
 
 ## Installation
 
-1. Install [Raspotify](https://github.com/dtcooper/raspotify) on your Client (e.g. RPi3).
+1. Install [Raspotify](https://github.com/dtcooper/raspotify) on your receiver device (e.g. RPi3).
 
-2. Clone the repo into the Raspotify client device under /usr/bin/{Repository-Folder}.
+2. Clone the repo into the Raspotify receiver device (e.g. RPi3) under /usr/bin/{Repository-Folder}.
 ```bash
 cd /usr/bin
 sudo git clone https://github.com/Pfleiderer-Adrian/PixelArt_x_Spotify
@@ -46,7 +46,7 @@ config = {
     "PIXOO_IP": "your_static_pixoo_ip",
 }
 ```
-> The first two entrys are the credentials from your Spotify app. Therefore [create a spotify development account](https://developer.spotify.com/) and [register your app](https://developer.spotify.com/dashboard) for api access (both free). The PIXOO_IP is your static IP for your pixoo64 device in your network. You find the pixoo64-IP in your router admin center. Maybe you must make the ip static in your router settings.
+> The first two entrys are the credentials from your Spotify account. Therefore [create a spotify development account](https://developer.spotify.com/) and [register your app](https://developer.spotify.com/dashboard) for api access (both free). The PIXOO_IP is your static IP for your pixoo64 device in your network. You find the pixoo64-IP in your router admin center. Maybe you must make the ip static in your router settings.
 
 6. Install tkinter for the pixoo libary.
 ```bash

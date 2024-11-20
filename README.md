@@ -46,7 +46,7 @@ config = {
     "PIXOO_IP": "your_static_pixoo_ip",
 }
 ```
-> The first two entrys are the credentials from your Spotify account. Therefore [create a spotify development account](https://developer.spotify.com/) and [register your app](https://developer.spotify.com/dashboard) for api access (both free). The PIXOO_IP is your static IP for your pixoo64 device in your network. You find the pixoo64-IP in your router admin center. Maybe you must make the ip static in your router settings.
+> The first two entrys are the API credentials from your Spotify app. Therefore [create a spotify development account](https://developer.spotify.com/) and [register your app](https://developer.spotify.com/dashboard) for api access (both free). The PIXOO_IP is your static IP for your pixoo64 device in your network. You find the pixoo64-IP in your router admin center. Maybe you must make the ip static in your router settings.
 
 6. Install tkinter for the pixoo libary.
 ```bash

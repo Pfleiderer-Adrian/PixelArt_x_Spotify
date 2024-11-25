@@ -54,7 +54,7 @@ sudo apt-get install python3-tk
 ```
 
 7. Add the following at the end of your respotfy-config in /etc/raspotify/conf:
-```python
+```bash
 LIBRESPOT_ONEVENT="/usr/bin/PixelArt_x_Spotify/launcher.sh"
 ```
 

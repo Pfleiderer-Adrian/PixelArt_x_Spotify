@@ -72,9 +72,8 @@ Check the Raspotify logs for crashes.
 sudo journalctl -u raspotify -b
 ```
 
+## ✨ Star History ✨
 
-
-
-
+[![Star History Chart](https://api.star-history.com/svg?repos=Pfleiderer-Adrian/PixelArt_x_Spotify&type=Timeline)](https://www.star-history.com/#Pfleiderer-Adrian/PixelArt_x_Spotify&Timeline)
 
 

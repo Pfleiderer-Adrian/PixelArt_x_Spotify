@@ -12,10 +12,14 @@ Show the actual Album Cover of your Spotify Connect receiver on your Pixoo64 Pix
 - A working [Raspotify](https://github.com/dtcooper/raspotify) receiver device with ubuntu
 - A [Pixoo64](https://divoom.com/products/pixoo-64) Pixel Display
 - A [Spotify Development Account](https://developer.spotify.com/) (free)
+- Python
 
 ## Installation
 
 1. Install [Raspotify](https://github.com/dtcooper/raspotify) on your receiver device (e.g. RPi3).
+```bash
+sudo apt-get -y install curl && curl -sL https://dtcooper.github.io/raspotify/install.sh | sh
+```
 
 2. Clone the repo into the Raspotify receiver device (e.g. RPi3) under /usr/bin/{Repository-Folder}.
 ```bash
@@ -28,7 +32,7 @@ sudo git clone https://github.com/Pfleiderer-Adrian/PixelArt_x_Spotify
 cd /usr/bin/PixelArt_x_Spotify
 sudo python3 -m venv env
 source env/bin/activate
-sudo pip install -r requirements.txt
+sudo /usr/bin/PixelArt_x_Spotify/env/bin/pip install -r requirements.txt
 ```
 
 4. Make launcher.sh and main.py executabel

@@ -1,7 +1,7 @@
 
 # PixelArt x Spotify
 
-Show the actual Album Cover of your Spotify Connect receiver on your Pixoo64 Pixel Display.
+Show the actual album cover of your Spotify Connect receiver on your Pixoo64 Pixel Display.
 
 <img src="demo.png" alt="HTML ERROR" width="530" height="258">
 
@@ -30,7 +30,11 @@ sudo git clone https://github.com/Pfleiderer-Adrian/PixelArt_x_Spotify
 3. Create a virtual enviroment and install the requirements.
 ```bash
 cd /usr/bin/PixelArt_x_Spotify
+
+# you may need to install python3-venv first
+sudo apt-get install python3-venv
 sudo python3 -m venv env
+
 source env/bin/activate
 sudo /usr/bin/PixelArt_x_Spotify/env/bin/pip install -r requirements.txt
 ```
@@ -60,6 +64,10 @@ sudo apt-get install python3-tk
 7. Add the following at the end of your respotfy-config in /etc/raspotify/conf:
 ```bash
 LIBRESPOT_ONEVENT="/usr/bin/PixelArt_x_Spotify/launcher.sh"
+
+# optional louder volume & name:
+LIBRESPOT_INITIAL_VOLUME=80
+LIBRESPOT_NAME="Name for Spotify receiver"
 ```
 
 8. Restart Raspotify

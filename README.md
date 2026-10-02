@@ -80,6 +80,10 @@ Check the Raspotify logs for crashes.
 sudo journalctl -u raspotify -b
 ```
 
+Volume to low?
+```bash
+sudo alsamixer
+```
 
 
 
